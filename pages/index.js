@@ -14,8 +14,6 @@ export async function getStaticProps() {
     };
 }
 
-const selfIntroduction = "Heya!";
-
 export default function Home({ allPostsData }) {
     return (
         <Layout home>
@@ -23,7 +21,7 @@ export default function Home({ allPostsData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>{selfIntroduction}</p>
+                <p>Hi there! I'm an IT student and Software Developer looking for a place to write down some of my thoughts, so why not make a blog and put them here? 🐵</p>
             </section>
             <section
                 className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
